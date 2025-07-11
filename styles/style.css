@@ -126,12 +126,13 @@
 
 .cus-rev-header{
     text-align: center;
+
 }
 
 .cus-rev-sec{
     display: flex;
-    justify-content: space-around;
-    margin-right: 160px;
+    justify-content: space-between;
+    margin-right: 150px;
     margin-left: 140px;
     margin-top: 50px;
     gap: 20px;
@@ -145,5 +146,132 @@
 
 }
 
+.cus-rev-div-main{
 
+    background-color: #F2EDED;
+    border: none;
+    border-radius: 5px;
+    height: 243px;
+    width: 310px;
+    padding: 0px 24px 0px 24px;
+
+    
+}
+.reviewer{
+    display: flex;
+    gap: 0px;
+}
+
+.cus-img{
+    border-radius: 100%;
+}
+
+
+.review-ul{
+    list-style: none;
+}
+
+.div-star{
+    display: flex;
+    padding: 24px 226px 0px 24px;
+}
+
+
+
+/* Promotion Section */
+
+.promotion-sec{
+    margin: 137px 151px 0px 149px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    width: 1140px;
+    height: 696px;
+}
+
+.promo-h3{
+    text-align: center;
+    padding: 71px 312px 0px 312px;
+}
+
+.promo-h4{
+
+    text-align: center;
+    padding: 20px 326px 0px 326px;
+}
+
+.promo-btn{
+    text-align: center;
+    
+    margin: 20px 472px 0px 472px;
+}
+
+.promo-img{
+    padding: 20px 150px 71px 150px;
+    /* border: none; */
+    border-radius: 50px;
+}
+
+.feedback{
+    margin: 92px 80px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .form-div{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9ff;
+  border-radius: 8px;
+    
+} */
+
+
+
+.form-info {
+  margin-bottom: 32px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px; 
+  font-size: 14px;
+  /* color: #333; */
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  font-size: 14px;
+  height: 100%;
+  
+}
+
+/* textarea {
+  resize: vertical;
+  min-height: 100px;
+} */
+
+.form-button input[type="submit"] {
+  width: 110%;
+  padding: 12px 0;
+  background: linear-gradient(90deg, #7f00ff, #00bfff);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.form-button input[type="submit"]:hover {
+  background: #333;
+  
+}
 
