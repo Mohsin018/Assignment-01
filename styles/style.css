@@ -49,6 +49,8 @@
     text-align: center;
     padding: 2px 267.5px 152px 267.5px;
     margin-top: 158px;
+    font-size: 30px;
+    font-style: normal;
 }
 
 .header-div-btn{
@@ -106,6 +108,8 @@
 .m-s-div{
     margin-top: 62px;
     margin-bottom: 62px;
+
+
     
 }
 
@@ -114,10 +118,27 @@
     border-radius: 35px;
 }
 
+.m-s-btn{
+  padding: 12px 0;
+  background: linear-gradient(90deg, #7f00ff, #00bfff);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 180px;
+
+
+}
+.m-s-btn:hover {
+  background: #333;
+}
+
 /* User Details */
 
 .s-d-head-user{
     text-align: center;
+    font-size: 35px;
 }
 
 .user-section{
@@ -130,7 +151,7 @@
 
 }
 .user-div-main{
-    padding: 50px 142px 50px 142px;
+    padding: 30px 142px 50px 142px;
     
     background-color: rgba(78, 71, 255, 0.1);
     border: none;
@@ -146,29 +167,41 @@
     margin-top: 40px;
 }
 
-
-
-/* Customer review section */
-
-.cus-rev-header{
-    text-align: center;
+.item-title{
+    font-size: 45px;
+    font-weight: bolder;
+    color: #7f00ff;
 
 }
 
+
+/* Customer review section */
 .cus-rev-sec{
     display: flex;
-    justify-content: space-between;
-    margin-right: 150px;
-    margin-left: 140px;
+    justify-content: space-around;
+    margin-right: 145px;
+    margin-left: 145px;
     margin-top: 50px;
     gap: 20px;
     border: none;
     border-radius: 5px;
+
+
+
 }
+.cus-rev-header{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+
 
 .cus-rev-head{
     text-align: center;
     margin-top: 137px;
+
 
 }
 
@@ -176,10 +209,12 @@
 
     background-color: #F2EDED;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     height: 243px;
     width: 310px;
     padding: 0px 24px 0px 24px;
+    
+    
 
     
 }
@@ -199,7 +234,8 @@
 
 .div-star{
     display: flex;
-    padding: 24px 226px 0px 24px;
+    padding: 24px 226px 0px 0px;
+    
 }
 
 
@@ -207,58 +243,69 @@
 /* Promotion Section */
 
 .promotion-sec{
-    margin: 137px 151px 0px 149px;
+    margin: 137px 151px 0px 120px;
     background-color: #FFFFFF;
     border: none;
-    border-radius: 5px;
-    width: 1140px;
-    height: 696px;
+    border-radius: 15px;
+
+    text-align: center;
 }
 
 .promo-h3{
     text-align: center;
     padding: 71px 312px 0px 312px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .promo-h4{
 
     text-align: center;
-    padding: 20px 326px 0px 326px;
+    padding: 0px 326px 0px 320px;
+    font-weight: 50;
 }
 
 .promo-btn{
     text-align: center;
     
-    margin: 20px 472px 0px 472px;
+    margin: 20px 472px 0px 450px;
+
+    padding: 12px 0;
+    background: linear-gradient(90deg, #7f00ff, #00bfff);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 180px;
+}
+
+.promo-btn:hover {
+  background: #333;
 }
 
 .promo-img{
-    padding: 20px 150px 71px 150px;
-    /* border: none; */
+    padding: 20px 150px 71px 100px;
+  
     border-radius: 50px;
+
 }
 
+/* feedback section */
+
 .feedback{
-    margin: 92px 80px 0px 150px;
+    margin: 92px 40px 0px 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
 .feedback-head{
-    padding-top: 120px;
-    padding-bottom: 200px; 
-    font-size: 24px; 
+    padding-top: 100px;
+    padding-bottom: 100px; 
+    font-size: 40px;
+    margin-right: 0px; 
 }
-/* .form-div{
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background: #f9f9ff;
-  border-radius: 8px;
-    
-} */
-
 
 
 .form-info {
@@ -269,7 +316,7 @@ label {
   display: inline-block;
   margin-bottom: 10px; 
   font-size: 14px;
-  /* color: #333; */
+
 }
 
 input[type="email"],
@@ -284,11 +331,6 @@ textarea {
   height: 100%;
   
 }
-
-/* textarea {
-  resize: vertical;
-  min-height: 100px;
-} */
 
 .form-button input[type="submit"] {
   width: 110%;
@@ -307,13 +349,12 @@ textarea {
   
 }
 
-
-
 /* Footer starts here */
 .footer{
     
-    padding: 104px 455px 103px 455px;
+    padding: 104px 455px 100px 455px;
     background-color: white;
+
 }
 
 .footer-section{
@@ -325,7 +366,25 @@ textarea {
     display: flex;
     list-style: none;
     justify-content: space-around;
+    color: #4D4D4D;
     
+}
+
+.foot-h2{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgba(78, 71, 255, 1);
+
+
+}
+
+.footer-txt{
+ 
+    text-align: center;
+    font-weight: 200;
+    color: #4D4D4D;
+
+
 }
 
 
